@@ -1,0 +1,11 @@
+l10n-spain:
+  - '*'
+web:
+  - web_no_bubble
+  - web_responsive
+partner-contact:
+  - '*'
+car-workshop:
+  - '*'
+server-tools:
+  - html_text

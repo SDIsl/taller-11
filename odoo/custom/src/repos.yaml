@@ -26,3 +26,39 @@
         oca $ODOO_VERSION
     merges:
         - oca $ODOO_VERSION
+./web:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/web.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+./partner-contact:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/partner-contact.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
+./car-workshop:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        sdisl: https://github.com/SDIsl/car-workshop.git
+    target:
+        sdisl $ODOO_VERSION
+    merges:
+        - sdisl $ODOO_VERSION
+./server-tools:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/server-tools.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
