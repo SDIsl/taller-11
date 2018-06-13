@@ -3,6 +3,7 @@ l10n-spain:
 web:
   - web_no_bubble
   - web_responsive
+  - web_decimal_numpad_dot
 partner-contact:
   - '*'
 car-workshop:
