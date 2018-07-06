@@ -53,11 +53,11 @@
         sdisl $ODOO_VERSION
     merges:
         - sdisl $ODOO_VERSION
-./server-tools:
+./bank-payment:
     defaults:
         depth: $DEPTH_DEFAULT
     remotes:
-        oca: https://github.com/OCA/server-tools.git
+        oca: https://github.com/OCA/bank-payment.git
     target:
         oca $ODOO_VERSION
     merges:
