@@ -8,5 +8,5 @@ partner-contact:
   - '*'
 car-workshop:
   - '*'
-server-tools:
-  - html_text
+bank-payment:
+  - '*'
