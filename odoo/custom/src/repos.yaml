@@ -62,3 +62,12 @@
         oca $ODOO_VERSION
     merges:
         - oca $ODOO_VERSION
+./community-data-files:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/community-data-files.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
