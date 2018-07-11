@@ -10,3 +10,6 @@ car-workshop:
   - '*'
 bank-payment:
   - '*'
+community-data-files:
+ - '*'
+ 
