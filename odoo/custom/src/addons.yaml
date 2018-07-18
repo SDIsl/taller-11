@@ -11,5 +11,10 @@ car-workshop:
 bank-payment:
   - '*'
 community-data-files:
- - '*'
- 
+  - '*'
+reporting-engine:
+  - '*'
+account-financial-reporting:
+  - '*'
+server-ux:
+  - '*'
