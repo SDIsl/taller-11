@@ -18,3 +18,5 @@ account-financial-reporting:
   - '*'
 server-ux:
   - '*'
+account-financial-tools:
+  - account_invoice_constraint_chronology
