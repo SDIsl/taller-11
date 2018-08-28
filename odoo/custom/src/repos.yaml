@@ -98,3 +98,12 @@
         oca $ODOO_VERSION
     merges:
         - oca $ODOO_VERSION
+./account-financial-tools:
+    defaults:
+        depth: $DEPTH_DEFAULT
+    remotes:
+        oca: https://github.com/OCA/account-financial-tools.git
+    target:
+        oca $ODOO_VERSION
+    merges:
+        - oca $ODOO_VERSION
