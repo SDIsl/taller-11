@@ -1,9 +1,7 @@
 l10n-spain:
   - '*'
 web:
-  - web_no_bubble
-  - web_responsive
-  - web_decimal_numpad_dot
+  - '*'
 partner-contact:
   - '*'
 car-workshop:
@@ -19,4 +17,4 @@ account-financial-reporting:
 server-ux:
   - '*'
 account-financial-tools:
-  - account_invoice_constraint_chronology
+  - '*'
