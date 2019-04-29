@@ -18,3 +18,5 @@ server-ux:
   - '*'
 account-financial-tools:
   - '*'
+queue:
+  - '*'
